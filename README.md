@@ -1,8 +1,6 @@
 # ConvertTemperature
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/convert_temperature`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Temperature Unit Convertor - Celsius, Fahrenheit, Rankine and Kelvin
 
 ## Installation
 
@@ -22,20 +20,25 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+##### Abbreviations
+`Fahrenheit --> fah`, `Celsius --> cel`, `Kelvin --> kel`, `Rankine --> ran`
 
-## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake false` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+##### Examples
+```ruby
+ConvertTemp.fah_to_cel(temperature) #Convert from Fahrenheit to Celsius
+ConvertTemp.cel_to_fah(temperature) #Convert from Celsius to Fahrenheit
+ConvertTemp.kel_to_fah(temperature) #Convert from Kelvin to Fahrenheit
+ConvertTemp.ran_to_cel(temperature) #Convert from Rankine to Celsius
+```
+Others convert has the same logic.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/convert_temperature. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/ecmelkytz/convert_temperature.
 
-
-## License
-
-The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
+- Fork it --> https://github.com/ecmelkytz/convert_temperature
+- Create your feature branch (git checkout -b your-new-branch)
+- Commit your changes (git commit -a -m 'your-commit')
+- Push to the branch (git push origin your-new-branch)
+- Create a new Pull Request

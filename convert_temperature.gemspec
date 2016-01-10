@@ -10,8 +10,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["ecmel.kytz@gmail.com"]
 
   spec.summary       = %q{Convert Temperature}
-  spec.description   = %q{Temperature Unit Convertor - Celsius, Fahrenheit, Rankine, Reaumur, and Kelvin}
-  spec.homepage      = ""
+  spec.description   = %q{Temperature Unit Convertor - Celsius, Fahrenheit, Rankine, and Kelvin}
+  spec.homepage      = "https://github.com/ecmelkytz/convert_temperature"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

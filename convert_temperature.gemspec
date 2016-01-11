@@ -6,7 +6,7 @@ require 'convert_temperature/version'
 Gem::Specification.new do |spec|
   spec.name          = "convert_temperature"
   spec.version       = ConvertTemp::VERSION
-  spec.authors       = ["ecmel"]
+  spec.authors       = ["ecmelkytz"]
   spec.email         = ["ecmel.kytz@gmail.com"]
 
   spec.summary       = %q{Convert Temperature}

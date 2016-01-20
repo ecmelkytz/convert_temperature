@@ -31,14 +31,14 @@ ConvertTemp.cel_to_fah(temperature) #Convert from Celsius to Fahrenheit
 ConvertTemp.kel_to_fah(temperature) #Convert from Kelvin to Fahrenheit
 ConvertTemp.ran_to_cel(temperature) #Convert from Rankine to Celsius
 ```
-Others convert has the same logic.
+Other conversions has the same logic.
 
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/ecmelkytz/convert_temperature.
 
-- Fork it --> https://github.com/ecmelkytz/convert_temperature
-- Create your feature branch (git checkout -b your-new-branch)
-- Commit your changes (git commit -a -m 'your-commit')
-- Push to the branch (git push origin your-new-branch)
-- Create a new Pull Request
+1. Fork it
+2. Create your feature branch (git checkout -b my-new-feature)
+3. Commit your changes (git commit -a -m 'Add some feature')
+4. Push to the branch (git push origin my-new-feature)
+5. Create a new Pull Request

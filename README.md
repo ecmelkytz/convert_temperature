@@ -19,17 +19,23 @@ Or install it yourself as:
     $ gem install convert_temperature
 
 ## Usage
+Include ConvertTemp in your controller:
+
+```ruby
+class YourController < ApplicationController
+  include ConvertTemp
+  ...
+```
 
 ##### Abbreviations
 `Fahrenheit --> fah`, `Celsius --> cel`, `Kelvin --> kel`, `Rankine --> ran`
 
-
 ##### Examples
 ```ruby
-ConvertTemp.fah_to_cel(temperature) #Convert from Fahrenheit to Celsius
-ConvertTemp.cel_to_fah(temperature) #Convert from Celsius to Fahrenheit
-ConvertTemp.kel_to_fah(temperature) #Convert from Kelvin to Fahrenheit
-ConvertTemp.ran_to_cel(temperature) #Convert from Rankine to Celsius
+fah_to_cel(temperature) #Convert from Fahrenheit to Celsius
+cel_to_fah(temperature) #Convert from Celsius to Fahrenheit
+kel_to_fah(temperature) #Convert from Kelvin to Fahrenheit
+ran_to_cel(temperature) #Convert from Rankine to Celsius
 ```
 Other conversions has the same logic.
 

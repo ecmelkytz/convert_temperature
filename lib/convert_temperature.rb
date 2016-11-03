@@ -1,5 +1,5 @@
-require "convert_temperature/version"
-require "convert_temperature/request"
+require 'convert_temperature/version'
+require 'convert_temperature/request'
 
 module ConvertTemp
   module_function
